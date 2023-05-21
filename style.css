@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	background: rgb(103, 134, 139);
+	padding: 20px;
+}
+.container {
+	padding: 32px;
+	border-radius:0px;
+	max-width: 400px;
+	width:400px;
+    height: 500px;
+	background: #fff;
+	box-shadow: 20px 20px 40px rgba(0,0,0,0.08), -8px -8px 16px rgba(0,0,0,0.1) inset;
+}
+.title {
+	text-align: center;
+}
+.input-container {
+	margin-top: 12px;
+	display: flex;
+	flex-direction: column;
+}
+.input-container input {
+	padding: 8px;
+	border-radius:0px;
+	margin-top: 4px;
+	border: 1px solid rgb(190, 190, 190);
+	box-shadow: none !important;
+	outline: 0;
+}
+.title-head p
+{
+    font-size: 40px;
+    color: rgb(15, 8, 8);
+    text-align: center;
+}
+input[type="number"]{
+    display: block;
+    width: 350px;
+    margin:0px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    height: 30px;
+}
+.wrapper{
+    display: block;
+    margin-top: 3em;
+    margin: auto;
+   
+}
+
+.nota{
+    text-align: center;
+    text-decoration: red;
+}
+#box2{
+    display: block;
+}
+#box1{
+    display: none;
+}
+#btncmd{
+    position: initial;
+    
+    display:flex; 
+    flex-direction: column;
+    margin-top: -400px;
+}
+#btncmd button{
+    height:50px;
+    width:100px;
+    border-radius:0px;
+    font-size:15px;
+    font-weight: bold;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#btncmd button:hover{
+    cursor: pointer;
+    background-color: bisque;
+}
